@@ -13,4 +13,23 @@ Hints:
   just like in HTML. In the slide, I have it set to 40px
  */
 
-  
+import React from "react"
+import ReactDOM from "react-dom"
+
+
+const page = (
+<>
+  <h1>Testing</h1>
+  <img src="./react-logo.png" width="40" />
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 18</li>
+  </ul>
+  </>
+)
+
+ReactDOM.render(page, document.getElementById("root"))
+
